@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Core</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <link rel="stylesheet" href="css/core.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header-container container">
+        <header style="position: relative">
+          <div class="d-flex justify-content-between">
+            <div class="logo-container">
+              <img src="images/tclogo2.png" alt="" />
+            </div>
+            <div class="nav-container">
+              <nav class="navbar navbar-expand-md text-black">
+                <!-- Brand -->
+
+                <!-- Toggler/collapsibe Button -->
+                <button
+                  style="position: absolute; top: 0"
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapsibleNavbar"
+                >
+                  <span class="navbar-toggler-icon">Menu</span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Cars</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Things to do</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbardrop"
+                        data-toggle="dropdown"
+                      >
+                        Popular places
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">London</a>
+                        <a class="dropdown-item" href="#">New York City</a>
+                        <a class="dropdown-item" href="#">Orlando</a>
+                        <a class="dropdown-item" href="#">Singapore</a>
+                        <a class="dropdown-item" href="#">Dubai</a>
+                        <a class="dropdown-item" href="#">Bangkok</a>
+                        <a class="dropdown-item" href="#">Phuket</a>
+                        <a class="dropdown-item" href="#">Barcelona</a>
+                        <a class="dropdown-item" href="#">Tokyo</a>
+                        <a class="dropdown-item" href="#">Kuala Lumpur</a>
+                        <a class="dropdown-item" href="#">Most Destinations</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Travel guides</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </header>
+      </div>
+      <main>
+        <div class="main-container">
+          <section class="container1 text-center">
+            <div class="background-picture">
+              <div class="container1-transparency d-flex p-lg-5">
+                <div class="container1-container container p-lg-5">
+                  <h2 style="color: white">Find Flights Deals and Discounts</h2>
+                  <h5 class="text-white">
+                    Get the best prices on millions of flights worldwide
+                  </h5>
+                  <div class="form-container p-lg-3">
+                    <form class="">
+                      <div class="form-row">
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="origin"
+                            placeholder="London"
+                            name="london"
+                          />
+                        </div>
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Destinations"
+                            name="destination"
+                          />
+                        </div>
+                        <span class="col d-flex">
+                          <div class="">
+                            <input
+                              type="datetime"
+                              class="form-control"
+                              placeholder="Mon May 10th"
+                              name="datetime"
+                            />
+                          </div>
+
+                          <div class="">
+                            <input
+                              type="datetime"
+                              class="form-control"
+                              placeholder="Return Date"
+                              name="returnDate"
+                            />
+                          </div>
+                        </span>
+                        <div class="col">
+                          <input
+                            type="password"
+                            class="form-control"
+                            placeholder="Enter password"
+                            name="pswd"
+                          />
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">
+                          Submit
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="logos d-flex container p-lg-4">
+                    <div class="ml-5">
+                      <img src="images/american airlines.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="container2 p-lg-5 p-md-3 text-justify">
+            <div class="row container">
+              <div class="col-3 d-flex">
+                <span class="icon-span"></span>
+                <span class="paragraph-span">
+                  <h5>Search and Save</h5>
+                  <p>
+                    Search over 500 airlines and travel websites, from low-cost
+                    to long-haul flights.
+                  </p>
+                </span>
+              </div>
+              <div class="col-3 d-flex">
+                <span class="icon-span"></span>
+                <span class="paragraph-span">
+                  <h5>Price Guarantee</h5>
+                  <p>
+                    There are no extra charges or hidden fees. The price you see
+                    is what you pay.
+                  </p>
+                </span>
+              </div>
+              <div class="col-3 d-flex">
+                <span class="icon-span"></span>
+                <span class="paragraph-span">
+                  <h5>Easy Bookings</h5>
+                  <p>
+                    Our travel search engine is the easiest and cheapest way to
+                    book your next trip.
+                  </p>
+                </span>
+              </div>
+              <div class="col-3 d-flex">
+                <span class="icon-span"></span>
+                <span class="paragraph-span">
+                  <h5>Super Search</h5>
+                  <p>
+                    With our advanced search options and filters you’ll find
+                    exactly what you need.
+                  </p>
+                </span>
+              </div>
+            </div>
+          </section>
+          <section class="container3 text-center" style="height: auto">
+            <div class="container3-content container">
+              <div class="container3-first-content">
+                <h4>Popular Flights Routes</h4>
+                <p>
+                  Need travel inspirations? Check outour maost popular
+                  destinations
+                </p>
+              </div>
+              <div class="container3-second-content d-flex">
+                <div class="card m-1">
+                  <img
+                    class="card-img-top"
+                    style="width: 100%"
+                    src="https://photo.hotellook.com/static/cities/960x720/NYC.auto"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <div class="links">
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Imo</span>
+                          <span class="prices">Find now</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Moscow</span>
+                          <span class="prices">$763</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">London</span>
+                          <span class="prices">$660</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Los Angeles</span>
+                          <span class="prices">$233</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Tbilisi</span>
+                          <span class="prices">$888</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Saint Petersburg</span>
+                          <span class="prices">$832</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card m-1">
+                  <img
+                    src="https://photo.hotellook.com/static/cities/960x720/BKK.auto"
+                    style="width: 100%"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <div class="links">
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Imo</span>
+                          <span class="prices">Find now</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Chiang Mai</span>
+                          <span class="prices">$59</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Moscow</span>
+                          <span class="prices">$711</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Phuket</span>
+                          <span class="prices">$57</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Hat Yai</span>
+                          <span class="prices">$63</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Novosibrsk</span>
+                          <span class="prices">$1576</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card m-1">
+                  <img
+                    style="width: 100%"
+                    src="https://photo.hotellook.com/static/cities/960x720/LON.auto"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <div class="links">
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Imo</span>
+                          <span class="prices">Find now</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Moscow</span>
+                          <span class="prices">$336</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Saint Petersburg</span>
+                          <span class="prices">$336</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">New York</span>
+                          <span class="prices">$1237</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Paris</span>
+                          <span class="prices">$242</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Tel-Aviv-Yafo </span>
+                          <span class="prices">$315</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card m-1">
+                  <img
+                    style="width: 100%"
+                    src="https://photo.hotellook.com/static/cities/960x720/KUL.auto"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <div class="links">
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Imo</span>
+                          <span class="prices">Find now</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Moscow</span>
+                          <span class="prices">$834</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Singapore</span>
+                          <span class="prices">$100</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Phuket</span>
+                          <span class="prices">$482</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Denpasar</span>
+                          <span class="prices">$600</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="d-flex justify-content-sm-between">
+                          <span class="places">Kota kinabalu</span>
+                          <span class="prices text-primary"> $233</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="container4"></section>
+          <section
+            class="container5 bg-primary text-white text-center text-justify p-3"
+          >
+            <div class="section5-content container p-lg-5">
+              <h3><strong>Why book us?</strong></h3>
+              <div class="row">
+                <div class="col-lg-6 col-md-12">
+                  <span class="icon">
+                    <i class="fas fa-check-circle"></i>
+                  </span>
+                  <span>
+                    We find the best travel deals from hundreds of travel
+                    providers and you choose the one you prefer.</span
+                  >
+                </div>
+                <div class="col-lg-6 col-md-12">
+                  <span class="icon"></span>
+                  <span>
+                    Search and compare prices from hundreds of travel providers
+                    with one easy search..</span
+                  >
+                </div>
+                <div class="col-lg-6 col-md-12">
+                  <span class="icon"></span>
+                  <span>
+                    We work with many travel providers so you can have a huge
+                    choice of destinations, promotions and discounts.</span
+                  >
+                </div>
+                <div class="col-lg-6 col-md-12">
+                  <span class="icon">
+                    There are no extra charges or hidden fees. The price you see
+                    is exactly what you pay.
+                  </span>
+                  <span>
+                    There are no extra charges or hidden fees. The price you see
+                    is exactly what you pay.</span
+                  >
+                </div>
+                <div class="col-lg-6 col-md-12">
+                  <span class="icon"></span>
+                  <span>
+                    We only include prices from trusted and proven travel
+                    providers in our search engine.</span
+                  >
+                </div>
+                <div class="col-lg-6 col-md-12">
+                  <span class="icon"></span>
+                  <span>
+                    We search both the largest booking websites and small local
+                    systems ensuring you'll find the lowest prices.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer>
+            <div class="row">
+              <div class="footer1"></div>
+              <div class="footer2"></div>
+              <div class="footer"></div>
+            </div>
+          </footer>
+        </div>
+      </main>
+    </div>
+    <script src="js/all.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+</html>
