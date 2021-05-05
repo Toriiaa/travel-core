@@ -11,6 +11,12 @@ body {
   background-color: #fff;
   box-sizing: border-box;
 }
+nav a:active {
+  color: orangered;
+}
+nav ul a:hover {
+  color: orangered;
+}
 
 header a {
   color: black;
@@ -37,9 +43,15 @@ header a {
 .container2 {
   height: 40vh;
 }
+.icon-span {
+  color: orangered;
+  font-size: 25px;
+  margin-right: 5px;
+}
 /* section 3 */
 .container3 {
   height: 65vh;
+  background-color: #eeeaeae7;
 }
 .container3 a {
   text-decoration: none;
@@ -64,4 +76,16 @@ header a {
 }
 .icon {
   font-size: 35px;
+}
+/* footer */
+.footer3 a,
+.footer2 a {
+  text-decoration: none;
+  color: black;
+}
+.footer3 a:hover {
+  color: orangered;
+}
+.orange {
+  color: orangered;
 }
