@@ -57,8 +57,11 @@ header a {
 /* container 4 */
 /* container 5 */
 .container5 {
-  height: 70vh;
+  height: 77vh;
 }
 .container5 h3 {
   font-weight: 500;
+}
+.icon {
+  font-size: 35px;
 }
