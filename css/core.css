@@ -94,7 +94,7 @@ footer {
   color: orangered;
 }
 footer ul li::before {
-  color: orangered;
+  color: rgb(61, 61, 252);
   content: "\2022";
 
   font-weight: bold;
@@ -104,4 +104,8 @@ footer ul li::before {
 }
 footer ul {
   list-style: none;
+}
+.social-media-icon {
+  font-size: 35px;
+  margin: 8px;
 }
