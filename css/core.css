@@ -66,10 +66,30 @@ header a {
   background-color: white;
   color: rgb(231, 227, 227);
 }
+
 /* container 4 */
+.container4 {
+  text-align: center;
+}
+#app-calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: 100%;
+}
+.selected {
+  display: inline-block;
+  margin: 1px;
+  text-align: center;
+  padding: 5%;
+  background-color: rgba(153, 196, 252, 0.178);
+}
+.weekend {
+  color: grey;
+}
 /* container 5 */
 .container5 {
-  height: 75vh;
+  height: 80vh;
 }
 .container5 h3 {
   font-weight: 500;
@@ -108,4 +128,21 @@ footer ul {
 .social-media-icon {
   font-size: 35px;
   margin: 8px;
+}
+@media screen and (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .container3 {
+    height: auto;
+  }
+  .container2 {
+    height: auto;
+  }
+  .container4 {
+    height: auto;
+  }
+  .container5 {
+    height: auto;
+  }
 }
