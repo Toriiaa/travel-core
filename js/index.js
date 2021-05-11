@@ -8,7 +8,7 @@ for(let day = 1; day<=31; day++){
     const date = new Date(2021, 2, day);
     const options = {weekday: "short"};
      const dayName = new Intl.DateTimeFormat("en-us", options).format(date);
-console.log(dayName);
+
     // console.log( weekend ? "yes": "");
 let name ="";
 if(day<=7){
