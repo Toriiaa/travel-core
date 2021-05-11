@@ -31,7 +31,7 @@
 
                 <!-- Toggler/collapsibe Button -->
                 <button
-                  style="position: absolute; top: 0"
+                  style="position: absolute; top: 10px; right:15px"
                   class="navbar-toggler"
                   type="button"
                   data-toggle="collapse"
@@ -95,16 +95,20 @@
         <div class="main-container">
           <section class="container1 text-center">
             <div class="background-picture">
-              <div class="container1-transparency d-flex p-lg-5">
+              <div
+                class="container1-transparency d-flex p-lg-5 align-items-center"
+              >
                 <div class="container1-container container p-lg-5">
                   <h2 style="color: white">Find Flights Deals and Discounts</h2>
                   <h5 class="text-white">
                     Get the best prices on millions of flights worldwide
                   </h5>
-                  <div class="form-container p-lg-3">
+                  <div class="form-container p-lg-3 p-sm-3 p-md-4">
                     <form class="">
                       <div class="form-row">
-                        <div class="col col-sm-12">
+                        <div
+                          class="col col-sm-12 col-md-12 col-lg-3 mb-sm-2 m-lg-0 form-container-input"
+                        >
                           <input
                             type="text"
                             class="form-control"
@@ -113,7 +117,9 @@
                             name="london"
                           />
                         </div>
-                        <div class="col">
+                        <div
+                          class="col-sm-12 col-lg-2 col-md-12 mb-sm-2 m-lg-0 form-container-input"
+                        >
                           <input
                             type="text"
                             class="form-control"
@@ -121,26 +127,29 @@
                             name="destination"
                           />
                         </div>
-                        <span class="col d-flex">
-                          <div class="">
+                        <div
+                          class="col-sm-12 col-md-12 col-lg-3 mb-sm-2 mb-md-2 m-lg-0 form-container-input-extra "
+                        >
+                          <div class="d-flex">
                             <input
+                              style="width: 50%"
                               type="datetime"
                               class="form-control"
                               placeholder="Mon May 10th"
                               name="datetime"
                             />
-                          </div>
-
-                          <div class="">
                             <input
+                              style="width: 50%"
                               type="datetime"
                               class="form-control"
                               placeholder="Return Date"
                               name="returnDate"
                             />
                           </div>
-                        </span>
-                        <div class="col">
+                        </div>
+                        <div
+                          class="col-sm-12 col-lg-2 col-md-12 mb-sm-2 m-lg-0 form-container-input"
+                        >
                           <input
                             type="password"
                             class="form-control"
@@ -148,9 +157,15 @@
                             name="pswd"
                           />
                         </div>
-                        <button type="submit" class="btn btn-primary mb-2">
-                          Submit
-                        </button>
+                        <div class="col-sm-12 col-lg-2 col-md-12 mb-sm-2 form-container-input" > 
+                           <input style="width: 100%;"
+                          type="submit"
+                          class="btn btn-primary   "
+                          value="Submit"
+                        >
+                          
+                        </input></div>
+                      
                       </div>
                     </form>
                   </div>
