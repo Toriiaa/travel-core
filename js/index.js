@@ -18,9 +18,15 @@ if(day<=7){
 
   
 
-    calendar.insertAdjacentHTML("beforeend", `<div class=" card
+    calendar.insertAdjacentHTML("beforeend", `<div class=" card day
     selected ${weekend ? "weekend": ""}">
     <div class = "name">${name}</div>
-    ${day}</div>`)
+    ${day}<div class="d-none hidden-box" ></div></div>`)
 
 }
+document.querySelectorAll("#app-calendar .day").forEach(day=>{
+   day.addEventListener("click", event =>{
+    event.currentTarget.classList.add("calendar-select");
+   });
+    
+});

@@ -77,12 +77,25 @@ header a {
   grid-template-rows: repeat(5, 1fr);
   height: 100%;
 }
+.hidden-box {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  /* display: none; */
+}
+.coloe {
+  background-color: blue;
+}
 .selected {
   display: inline-block;
   margin: 1px;
   text-align: center;
   padding: 5%;
   background-color: rgba(153, 196, 252, 0.178);
+}
+.calendar-select {
+  background-color: rgb(28, 28, 241);
+  color: white;
 }
 .weekend {
   color: grey;
